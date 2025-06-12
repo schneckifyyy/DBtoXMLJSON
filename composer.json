@@ -1,0 +1,19 @@
+{
+    "name": "adam_ogris/xmljson",
+    "autoload": {
+        "psr-4": {
+            "AdamOgris\\Xmljson\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "schneckifyyy",
+            "email": "adamogris@outlook.at"
+        }
+    ],
+    "require": {
+        "doctrine/dbal": "^4.2",
+        "ext-simplexml": "*",
+      "ext-dom": "*"
+    }
+}

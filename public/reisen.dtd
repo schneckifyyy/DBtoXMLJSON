@@ -1,0 +1,18 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT reisen (reise)+>
+<!ATTLIST reisen xmlns CDATA #FIXED ''>
+<!ELEMENT reise (id,datum,titel,beschreibung)>
+<!ATTLIST reise xmlns CDATA #FIXED ''>
+
+<!ELEMENT id (#PCDATA)>
+<!ATTLIST id xmlns CDATA #FIXED ''>
+
+<!ELEMENT datum (#PCDATA)>
+<!ATTLIST datum xmlns CDATA #FIXED ''>
+
+<!ELEMENT titel (#PCDATA)>
+<!ATTLIST titel xmlns CDATA #FIXED ''>
+
+<!ELEMENT beschreibung (#PCDATA)>
+<!ATTLIST beschreibung xmlns CDATA #FIXED ''>
