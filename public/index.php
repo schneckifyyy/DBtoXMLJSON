@@ -1,3 +1,7 @@
+*/
+Bitte README.md lesen.
+*/
+
 <?php
 require_once '../vendor/autoload.php';
 
